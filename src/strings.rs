@@ -22,9 +22,17 @@ pub fn run(){
     println!("replace  :{}",hello.replace("World","There") );
 
     // loop through string by whitespaces
-
     for word in hello.split_whitespace() {
         println!("{}",word );
     }
+
+    // create a string with a certain capacity 
+    let mut s = String::with_capacity(10);
+    s.push('1');
+    
+    // assetion testing
+    assert_eq!(2,s.len());
+    
+    println!("{}", s);
 
 }
