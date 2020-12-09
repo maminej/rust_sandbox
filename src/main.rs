@@ -7,7 +7,12 @@
 // mod strings;
 // mod tuples;
 // mod arrays;
-mod vectors;
+// mod vectors;
+// mod conditionals;
+// mod loops;
+// mod functions;
+// mod reference;
+mod structs;
 
 fn main() {
     // print::run();
@@ -16,6 +21,13 @@ fn main() {
     //strings::run();
     // tuples::run();
     // arrays::run();
-    vectors::run();
+    // vectors::run();
+    // conditionals::run();
+    // loops::run();
+    // functions::run();
+    // reference::run();
+    structs::run();
+    
+
 
 }
